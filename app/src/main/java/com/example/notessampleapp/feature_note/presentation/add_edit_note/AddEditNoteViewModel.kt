@@ -31,7 +31,7 @@ class AddEditNoteViewModel @Inject constructor(
     val noteColor: State<Int> = _noteColor
 
     private val _eventFlow = MutableSharedFlow <UiEvent>()
-    val evenFlow = _eventFlow.asSharedFlow()
+    val eventFlow = _eventFlow.asSharedFlow()
 
     private var currentNoteId: Int? = null
 
