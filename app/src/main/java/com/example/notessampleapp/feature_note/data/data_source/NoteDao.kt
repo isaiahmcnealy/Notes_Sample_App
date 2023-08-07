@@ -8,11 +8,6 @@ import androidx.room.Query
 import com.example.notessampleapp.feature_note.domain.model.Note
 import kotlinx.coroutines.flow.Flow
 
-/*
-Marks the class as a Data Access Object.
-Data Access Objects are the main classes where you define your database interactions. They can include a variety of query methods.
-*/
-
 @Dao
 interface NoteDao {
 
